@@ -36,7 +36,7 @@ print("The average of ", a, "and", b, "is: ", average)
 # Finding the square of a number given by the user
 print("\nThis program finds the square of a number given by the user")
 s = int(input("Enter number to find its square: "))
-sq = s*s
+sq = s*s   #this can also be written as sq^2 or sq = pow(s,2) or sq**2
 print("The square of ", s, "is: ", sq)
 
 # printing the type of square
@@ -45,3 +45,9 @@ print("\nThis is the type of the sqaure given above: ", type(sq))
 # typecasting the suare to float
 sq = float(sq)
 print("\nThis is the same square root but typecasted to other type: ",type(sq))
+
+# concatenation of two strings
+st1 = "Hello "
+st2 = "World"
+print("\nThis is the concatenation of two strings", st1,"and",st2,": ",st1+st2)
+
